@@ -1,0 +1,187 @@
+
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+(Used 96 for the hero heading) 
+
+
+- Font weights:
+Default:400
+Medium: 500
+Semi-bold:600
+Bold:700
+
+- Line heights
+Default:1
+Small:1.05
+Medium:1.2
+Paragraph default: 1.6
+
+- letter spacing 
+-0.5px
+0.75px
+
+
+---- 02 COLORS 
+
+-- Primary:#FF7E21
+-- Secondary:#121212
+#262626
+-- Tints:
+-- Shades:
+-- Accents:
+-- Greys: #333
+
+
+---- 05 SHADOWS
+
+---- 06 BORDER-RADIUS
+
+Default:9px
+large 64px
+
+---- 07 WHITE SPACE
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+header {
+    height: 100vh;
+    background-image: url(hero-img.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 52px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-top: 24px;
+  align-items: center;
+  margin-bottom: 48px;
+
+}
+.nav-icon {
+  height: 24px;
+  width: 24px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.logo {
+  font-weight: 700;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #363636;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 64px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:52px ;
+    
+}
+
+h2{
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 52px;
+     font-weight:300 ;
+     text-decoration: underline;
+     text-decoration-thickness: 2px;
+     margin-bottom: 48px;
+     font-family: 'Rubik', sans-serif;
+}
+.grid-3-cols{
+    display: grid;
+    grid-template-columns: 200PX 200px 200px;
+    width: 1200px;
+    margin: 0 auto;
+    column-gap: 80px;
+    row-gap: 48px;
+    justify-content: center;
+}
+.card-content{
+    color:#1b5956;
+    margin-bottom: 15px;
+}
+.card-btn{
+  padding: 8px 0;
+    width: 100%;
+    background-color: #1b5956;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+
+}
+.grid-card{
+    display: inline-block;
+}
+img{
+   width: 100%;
+   height:300px ;
+   margin-bottom: 9px;
+}
+.card-content p{
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+footer{
+    background-color:#1b5956 ;
+    width: 100%;
+    height: 250px;
+   margin-top: 48px;
+   display: flex;
+   
+   align-items: center;
+}
+.footer-content{
+    margin: 0 auto;
+    width: 1200px;
+  color: #fff;
+}
+.copy{
+    display: flex;
+    justify-content:space-between ;
+    width: 50%;
+
+
+}
+.footer-link:link, .footer-link:visited{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+
+}
